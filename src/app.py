@@ -6,7 +6,7 @@ def query_rag(user_query: str) -> str:
 
     # Connect to Pinecone
     pinecone_api_key = os.getenv("PINECONE_API_KEY")
-    index_name = "your-index-name"
+    index_name = "unhcr-chatbot"
     index = initialize_pinecone(pinecone_api_key, index_name, dimension=768)
 
     # RAG steps
