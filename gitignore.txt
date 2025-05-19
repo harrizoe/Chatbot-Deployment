@@ -1,0 +1,24 @@
+# Exclude all JSON files
+*.json
+
+# Exclude Virtual Environment
+rag_model_env/
+
+# Add API Key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+env/
+venv/
+.rag-model/
+rag-model/Lib/
+rag-model/Scripts/
+
+# OS-specific
+.DS_Store
+Thumbs.db
